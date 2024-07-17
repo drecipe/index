@@ -28,7 +28,7 @@ body {
 #container-ad1 {
     display: flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     padding-top: 10px;
 }
 
