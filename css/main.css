@@ -1,0 +1,86 @@
+body {
+    background-color: #f0f0f4;
+}
+
+.container {
+    width: 1000px;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    background-color: green !important;
+}
+
+#container-welcome {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: green;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    padding: 10px;
+}
+
+#container-foodlist {
+    padding: 10px;
+}
+
+#container-foodlist .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-footer {
+    padding: 10px;
+    background-color: green;
+}
+
+#logo {
+    color: white;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#welcome-title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#welcome-message {
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+
+#container-foodlist .row .col a {
+    text-decoration: none;
+}
+
+.food-title {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.food-title:hover {
+    color: yellowgreen;
+}
+
+#container-footer p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.img-food-icon {
+    width: 200px;
+    height: 200px;
+}
