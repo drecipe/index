@@ -25,6 +25,13 @@ body {
     padding: 10px;
 }
 
+#container-ad1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+}
+
 #container-foodlist {
     padding: 10px;
 }
