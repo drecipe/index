@@ -8,7 +8,12 @@
         <script src="js/bootstrap.min.js"></script>
         <script>
             function init(){
-                document.querySelectorAll("[id^='atLink']")[0].click();
+                var link = document.querySelectorAll("[id^='atLink']")[0];
+                if(link){
+                    link.click();
+                }else{
+                    console.error("Link not found!");
+                }
             }
         </script>
     </head>
