@@ -26,6 +26,9 @@ body {
 }
 
 #container-ad1 {
+    width: 100%;
+    height: 90px;
+    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
